@@ -96,3 +96,121 @@ nav {
 .features-txt{
     color: #FF900E;
 }
+
+/* features-you-will-love */
+.features-you-will-love{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.features-left-inside{
+    display: flex;
+    margin: 10px 10px;
+}
+.features-left h2{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.line{
+    width: 5px;
+    background-color: #FF900E;
+    height: 106px;
+    margin-right: 20px;
+}
+.item-box{
+    margin: 0 10px;
+    height: 120px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+.item-box h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.item-box p{
+    line-height: 26px;
+}
+.features-left{
+    width: 600px;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+}
+.indise-text{
+    margin: 10px 10px;
+}
+.indise-text p{
+    line-height: 26px;
+}
+/* some-facts */
+
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.some-facts,.items{
+    width: 1440px;
+    margin: 0 auto;
+}
+.some-facts{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.some-facts h2{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.some-facts p{
+    line-height: 26px;
+}
+.item-card{
+    width: 240px;
+    height: 240px;
+    border: 3px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* sponspor */
+.sponspor{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sponspor-list{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+/* footer */
+footer{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    padding: 40px;
+    border-radius: 8px;
+}
+footer p{
+   text-align: center;
+}
